@@ -57,17 +57,6 @@ public class AlfredQuotes {
             return "At your service. As you wish, naturally.";
         }
         return "Right. And with that I shall retire.";
-        // boolean alexisInConversation = true;
-        // boolean alfredInConversation = true;
-        // if (alexisInConversation == true){
-        //     return "Right away, sir. She certainly isn't sophisticated enough for that.";
-        // }
-        // else if (alfredInConversation == true){
-        //     return "At your service. As you wish, naturally.";
-        // }
-        // else {
-        //     return "Right. And with that I shall retire.";
-        // }
     }
 
     // NINJA BONUS
