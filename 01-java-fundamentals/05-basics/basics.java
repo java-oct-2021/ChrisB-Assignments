@@ -53,7 +53,7 @@ public class basics {
         for (int i = 1; i <= 255; i+=2) {
             oddArrList.add(i);
         }
-        System.out.println(oddArrList);
+        System.out.println(oddArrList); 
     }
     }
 
