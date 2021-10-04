@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class basicsTest {
     public static void main(String[] args) {
         // Oneto255
