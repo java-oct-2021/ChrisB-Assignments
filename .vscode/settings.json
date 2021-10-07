@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "02-java-oop/04-zoo-keeper-pt2",
+        "01-java-fundamentals/03-fizzbuzz",
         "01-java-fundamentals/01-Java First Program",
-        "01-java-fundamentals/03-fizzbuzz"
+        "02-java-oop/03-zoo-keeper-pt1"
     ]
 }
