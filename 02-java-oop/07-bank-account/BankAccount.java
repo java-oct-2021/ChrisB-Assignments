@@ -36,7 +36,6 @@ public class BankAccount {
 
                 } else {
                     this.setCheckingBalance(this.getCheckingBalance() - amount);
-                    amountOfMoney -= amount;
                 }
                 //TO withdraw from savings
             } else if (accountType.equals("Saving")){
@@ -46,12 +45,12 @@ public class BankAccount {
 
                 } else{
                     this.setSavingBalance(this.getSavingBalance() - amount);
-                amountOfMoney -= amount;
                 }                
             } else {
                 System.out.println("Invalid Account Type");
                 return;
             }
+            amountOfMoney -= amount;
         }
 
     //Account Total
