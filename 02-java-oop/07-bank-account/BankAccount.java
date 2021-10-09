@@ -15,12 +15,10 @@ public class BankAccount {
         if (accountType.equals("Checking")){
             //Set checkingBalance
             this.setCheckingBalance(this.getCheckingBalance() + amount);
-            //increase total money
             //TO DEPOSIT TO SAVING
         } else if (accountType.equals("Saving")){
             //set saving balance
             this.setSavingBalance(this.getSavingBalance() + amount);
-            //increase total money
         } else {
             System.out.println("Invalid Account Type");
             return;
