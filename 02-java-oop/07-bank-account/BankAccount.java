@@ -1,5 +1,3 @@
-// import java.util.Random;
-
 public class BankAccount {
     // Attributes (double)checking balance and (double) saving balance
     private double checkingBalance;
