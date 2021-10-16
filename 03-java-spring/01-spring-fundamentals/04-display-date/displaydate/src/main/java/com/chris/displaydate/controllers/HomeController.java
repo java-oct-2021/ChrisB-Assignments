@@ -16,6 +16,7 @@ public class HomeController {
 		Date now = new Date();
 		return now;
 	}
+	
 	@RequestMapping("/")
 	public String index() {
 		return "index.jsp";
