@@ -33,12 +33,6 @@
 <input type="hidden" name="_method" value="delete">
 <input class="btn btn-danger" type="submit" value="Delete">
 </form>
-
-<%--  <a href="/delete/${language.id}">Delete</a></td>
- --%><%-- <form action="/delete/${language.id}" method="POST">
-<input type ="hidden" name="_method" value="delete">
-<input type ="submit" value="delete">
-</form> --%>
 </tr>
 </c:forEach>
 </tbody>

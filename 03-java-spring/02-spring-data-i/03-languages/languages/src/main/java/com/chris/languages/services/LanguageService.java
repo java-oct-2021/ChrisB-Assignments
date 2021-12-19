@@ -12,9 +12,6 @@ import com.chris.languages.repositories.LanguageRepository;
 public class LanguageService {
 	@Autowired
 	private LanguageRepository lRepo;
-//	public LanguageService(LanguageRepository repository) {
-//		this.lRepo = repository;
-//	}
 	
 	// Get Every Single Language from database and Return an ArrayList
 	public List<Language> getAllLanguages(){

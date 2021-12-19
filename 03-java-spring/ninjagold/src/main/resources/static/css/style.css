@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.container {
+	width: 800;
+}
+
+.building {
+	padding: 10px;
+	display: inline-block;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.activities {
+	width: 100%;
+	border: 2px solid black;
+	overflow-y: auto;
+	max-height:100px;
+	min-height:75px;
+}
+
+.green{
+	color: green;
+}
+
+.red{
+	color:red;
+}

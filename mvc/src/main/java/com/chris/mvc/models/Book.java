@@ -1,5 +1,4 @@
 package com.chris.mvc.models;
-
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -59,3 +58,4 @@ public class Book {
         this.updatedAt = new Date();
     }
 }
+

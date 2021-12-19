@@ -1,5 +1,7 @@
 package com.chris.dojosurvey.controllers;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,11 +22,13 @@ public class DojoController {
 			@RequestParam("location")String location, 
 			@RequestParam("language")String program, 
 			@RequestParam("comment")String comment,
-			Model model) {
+			Model model,
+			HttpSession mysession) {
 		model.addAttribute("firstName", fName);
 		model.addAttribute("location", location);
 		model.addAttribute("language", program);
 		model.addAttribute("comment", comment);
+		mysession.setAttribute("language", program);
 		return "result.jsp";
 	}
 	@GetMapping("/info")

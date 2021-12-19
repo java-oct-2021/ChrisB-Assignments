@@ -1,8 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "02-java-oop/09-phone",
+        "02-java-oop/07-bank-account",
         "02-java-oop/04-zoo-keeper-pt2",
+        "02-java-oop/03-zoo-keeper-pt1",
+        "02-java-oop/01-project-class",
         "01-java-fundamentals/03-fizzbuzz",
         "01-java-fundamentals/01-Java First Program",
-        "02-java-oop/03-zoo-keeper-pt1"
+        "02-java-oop/02-singly-linked-list"
     ]
 }

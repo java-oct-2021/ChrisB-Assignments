@@ -39,22 +39,4 @@ public class BookService {
 		return "Book has been deleted";
 	}
 }
-//	@Autowired
-//	private BookRepository bRepo;
-//	public Book updateBook(Long id, String title, String desc, String lang, Integer numOfPages) {
-//		// TODO Auto-generated method stub
-//		return null;
-//	}
-//
-//	// Create Book
-//	public Book createBook(Book book) {
-//		return this.bRepo.save(book);
-//	}
-//	
-//	// Delete Book
-//	public String deleteBook(Long id) {
-//		this.bRepo.deleteById(id);
-//		return "Book has been deleted";
-//	}
-
 
